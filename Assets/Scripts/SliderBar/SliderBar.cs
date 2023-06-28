@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/// <summary>
+/// 左右滑块Slider
+/// </summary>
 public class SliderBar : MonoBehaviour
 {
     [SerializeField]
@@ -33,7 +35,7 @@ public class SliderBar : MonoBehaviour
 
             Fill.GetComponent<Image>().fillOrigin = 1;
         }
-        Debug.LogError(Mathf.Abs(Handle.localPosition.x));
+        //Debug.LogError(Mathf.Abs(Handle.localPosition.x));
         Fill.GetComponent<Image>().fillAmount=Mathf.Abs(Handle.localPosition.x/100);
     }
 }

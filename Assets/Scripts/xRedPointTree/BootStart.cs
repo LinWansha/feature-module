@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/// <summary>
+/// 红点系统Root
+/// </summary>
 public class BootStart : MonoBehaviour
 {
     public Image imgMail;
